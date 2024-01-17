@@ -1,0 +1,42 @@
+.nounHeadDiv {
+    display: flex;
+    align-items: center;
+}
+
+.h2 {
+    margin-right: 40px;
+}
+
+.ulNoun {
+    text-align: left !important;
+    
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+li::before {
+    content: '\2022'; /* Nokta karakteri (•) */
+    color: #962de6; /* Noktanın rengi */
+    margin-right: 0.5em; /* İsteğe bağlı: Noktanın sağında boşluk bırakabilirsiniz */
+    font-size: 1.5em; /* Noktanın boyutunu ayarlayın (örnekte 1.5em) */
+    vertical-align: middle; /* Noktanın dikey hizalamasını ortala */
+    vertical-align: -4px;
+    font-size: 30px;
+}
+
+p {
+    text-align: left;
+}
+
+.lastDiv {
+    display: flex;
+}
+
+.lastDiv > a {
+    margin-top: 16px;
+    margin-left: 15px;
+    color: white;
+}

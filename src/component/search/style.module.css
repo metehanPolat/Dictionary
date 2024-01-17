@@ -1,0 +1,40 @@
+.inputSearch:focus {
+    outline: none !important;
+    border:2px solid #a445ed;
+    margin: 0px;
+}
+
+.inputSearch {
+    border-radius: 10px;
+    width: calc(100% - 20px);
+    height: 50px;
+    border: none;
+    margin: 2px;
+    padding-left: 20px;
+}
+
+.inputLightMode {
+    background-color: rgb(220, 220, 220);
+	color: black;
+}
+
+.searchButton {
+    position: absolute;
+    right: 0px;
+    top: 5px;
+    z-index: 1;
+
+    
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    color: #a445ed;
+}
+
+.searchDiv {
+    position: relative;
+    margin-top: 50px;
+}

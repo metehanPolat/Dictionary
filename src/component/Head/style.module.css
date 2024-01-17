@@ -1,0 +1,54 @@
+.searchWord {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.searchWordDescription {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.leftDiv {
+    display: inline-block;
+}
+
+.mainDiv {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.headerTextDiv {
+    text-align: left;
+}
+
+.soundButton {
+    padding: 0px;
+    padding-top: 3px;
+    padding-left: 2px;
+    padding-right: 2px;
+    
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    color: rgb(173, 105, 224);
+}
+
+
+.soundButton:focus {
+    border: none;
+    outline: none;
+}
+
+.soundButton:hover {
+    color: #962de6;
+}
+
+.icon {
+    font-size: 80px;
+}

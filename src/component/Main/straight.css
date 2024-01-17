@@ -1,0 +1,12 @@
+.h-\[1px\] {
+    height: 3px;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.bg-\[\#3a3a3a\] {
+    --tw-bg-opacity: 1;
+    background-color: rgb(58 58 58 / var(--tw-bg-opacity));
+}
